@@ -1,0 +1,68 @@
+
+let obj = {
+    dashboard_7_days_report:0,
+    dashboard_last_30_days_sell_report:0,
+    dashboard_top_test_list_report:0,
+    dashboard_top_refered_by_report:0,
+    dashboard_total_earning_card:0,
+    dashboard_total_report_count_card:0,
+    dashboard_total_dues_card:0,
+    new_billing_access:0,
+    digital_sign_access:0,
+    print_status_access:0,
+    recive_payment_access:0,
+    payment_statement_access:0,
+    print_invoice_access:0,
+    print_report_access:0,
+    make_report_access:0,
+    edit_report_access:0,
+    delete_report_access:0,
+    due_report_access:0,
+    pending_report_access:0,
+    test_report_access:0,
+    category_read:0,
+    category_write:0,
+    category_delete:0,
+    test_read:0,
+    test_write:0,
+    test_delete:0,
+    vendor_read:0,
+    vendor_write:0,
+    vendor_delete:0,
+    patient_read:0,
+    patient_write:0,
+    patient_delete:0
+};
+
+$("input[name=dashboard_7_days_report]").prop('checked') == true?obj.dashboard_7_days_report = 1:obj.dashboard_7_days_report=0;
+$("input[name=dashboard_last_30_days_sell_report]").prop('checked') == true?obj.dashboard_last_30_days_sell_report = 1:obj.dashboard_last_30_days_sell_report=0;
+$("input[name=dashboard_top_test_list_report]").prop('checked') == true?obj.dashboard_top_test_list_report = 1:obj.dashboard_top_test_list_report=0;
+$("input[name=dashboard_top_refered_by_report]").prop('checked') == true?obj.dashboard_top_refered_by_report = 1:obj.dashboard_top_refered_by_report=0;
+$("input[name=dashboard_total_earning_card]").prop('checked') == true?obj.dashboard_total_earning_card = 1:obj.dashboard_total_earning_card=0;
+$("input[name=dashboard_total_report_count_card]").prop('checked') == true?obj.dashboard_total_report_count_card = 1:obj.dashboard_total_report_count_card=0;
+$("input[name=dashboard_total_dues_card]").prop('checked') == true?obj.dashboard_total_dues_card = 1:obj.dashboard_total_dues_card=0;
+$("input[name=new_billing_access]").prop('checked') == true?obj.new_billing_access = 1:obj.new_billing_access=0;
+$("input[name=digital_sign_access]").prop('checked') == true?obj.digital_sign_access = 1:obj.digital_sign_access=0;
+$("input[name=print_status_access]").prop('checked') == true?obj.print_status_access = 1:obj.print_status_access=0;
+$("input[name=recive_payment_access]").prop('checked') == true?obj.recive_payment_access = 1:obj.recive_payment_access=0;
+$("input[name=payment_statement_access]").prop('checked') == true?obj.payment_statement_access = 1:obj.payment_statement_access=0;
+$("input[name=print_invoice_access]").prop('checked') == true?obj.print_invoice_access = 1:obj.print_invoice_access=0;
+$("input[name=print_report_access]").prop('checked') == true?obj.print_report_access = 1:obj.print_report_access=0;
+$("input[name=make_report_access]").prop('checked') == true?obj.make_report_access = 1:obj.make_report_access=0;
+$("input[name=edit_report_access]").prop('checked') == true?obj.edit_report_access = 1:obj.edit_report_access=0;
+$("input[name=delete_report_access]").prop('checked') == true?obj.delete_report_access = 1:obj.delete_report_access=0;
+$("input[name=due_report_access]").prop('checked') == true?obj.due_report_access = 1:obj.due_report_access=0;
+$("input[name=pending_report_access]").prop('checked') == true?obj.pending_report_access = 1:obj.pending_report_access=0;
+$("input[name=test_report_access]").prop('checked') == true?obj.test_report_access = 1:obj.test_report_access=0;
+$("input[name=category_read]").prop('checked') == true?obj.category_read = 1:obj.category_read=0;
+$("input[name=category_write]").prop('checked') == true?obj.category_write = 1:obj.category_write=0;
+$("input[name=category_delete]").prop('checked') == true?obj.category_delete = 1:obj.category_delete=0;
+$("input[name=test_read]").prop('checked') == true?obj.test_read = 1:obj.test_read=0;
+$("input[name=test_write]").prop('checked') == true?obj.test_write = 1:obj.test_write=0;
+$("input[name=test_delete]").prop('checked') == true?obj.test_delete = 1:obj.test_delete=0;
+$("input[name=vendor_read]").prop('checked') == true?obj.vendor_read = 1:obj.vendor_read=0;
+$("input[name=vendor_write]").prop('checked') == true?obj.vendor_write = 1:obj.vendor_write=0;
+$("input[name=vendor_delete]").prop('checked') == true?obj.vendor_delete = 1:obj.vendor_delete=0;
+$("input[name=patient_read]").prop('checked') == true?obj.patient_read = 1:obj.patient_read=0;
+$("input[name=patient_write]").prop('checked') == true?obj.patient_write = 1:obj.patient_write=0;
+$("input[name=patient_delete]").prop('checked') == true?obj.patient_delete = 1:obj.patient_delete=0;

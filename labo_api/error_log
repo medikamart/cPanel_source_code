@@ -1,0 +1,1 @@
+[30-Nov-2022 09:07:14 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required '/home/mediznkg/public_html/labo_api/application/vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/mediznkg/public_html/labo_api/application/controllers/api/CustomerApi.php on line 15
